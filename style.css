@@ -1,0 +1,83 @@
+
+/* root / universal */
+
+/* *{
+    font-size: 3rem;
+} */
+
+
+/* id */
+
+/* #head{
+    color:red;
+} */
+
+
+/* tag name */
+
+/* p{
+    color:blue;
+} */
+
+
+/* class */
+/* .para{
+    border:2px solid red;
+}
+
+.p2{
+    color:green;
+} */
+
+
+
+/* #attribute */
+
+/* input[type=text]{
+padding:2rem;
+} */
+
+
+#head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    /* font-style: italic; */
+    font-style: oblique ;
+
+    /* x , y, blur , color */
+ text-shadow: 3px 3px 2px  red ;
+letter-spacing: 10px;
+
+}
+
+
+#name{
+    font-style: normal;
+}
+
+p{
+ line-height: 2;   
+}
+
+
+
+#main{
+    color:#fff;
+    /* background: orangered; */
+    /* background-color: orangered; */
+
+    /* background: linear-gradient(45deg,blue 80%,purple 20%); */
+    /* background: linear-gradient(-45deg,blue,purple, green); */
+    /* background: linear-gradient(-45deg,blue,purple); */
+
+
+    /* background: url(https://img.freepik.com/free-vector/watercolor-women-s-day-background_23-2151254843.jpg?w=1060&t=st=1714719566~exp=1714720166~hmac=a6073ef9cc26dd0d207733d4f001fe0079b4a082db3bac490f43a1f32c193a85); */
+    background: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) , url(https://img.freepik.com/free-vector/watercolor-women-s-day-background_23-2151254843.jpg?w=1060&t=st=1714719566~exp=1714720166~hmac=a6073ef9cc26dd0d207733d4f001fe0079b4a082db3bac490f43a1f32c193a85);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+ 
+    background-attachment: fixed;
+
+}

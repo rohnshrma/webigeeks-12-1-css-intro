@@ -1,0 +1,37 @@
+
+
+#parent{
+    height: 400px;
+    width:400px;
+    background-color: grey;
+    position: relative;
+}
+
+.box{
+    height:100px;
+    width: 100px;
+}
+
+.b1{
+    background-color: red;
+}
+.b2{
+    background-color: green;
+    /* position: relative;
+    top:100px;
+    left:100px; */
+
+    /* relative to vp (screen) */
+    /* position: fixed;
+    bottom:10px;
+    right:10px; */
+
+    /* relative to the body */
+    position: absolute;
+top:0;
+right:0;
+
+}
+.b3{
+    background-color: blue;
+}
