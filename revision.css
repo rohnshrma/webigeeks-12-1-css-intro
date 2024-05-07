@@ -1,0 +1,50 @@
+#main {
+    /* background-color: peru; */
+
+    /* background: linear-gradient(-45deg ,peru , tomato); */
+
+    /* background: linear-gradient(-45deg ,peru , tomato,blue); */
+
+    /* background: linear-gradient(-45deg ,peru 5% , tomato 15% ,blue 80%); */
+
+    /* background: url(https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg) ; */
+    /* background: linear-gradient(90deg,  rgba(0,0,0,0.1) , rgba(0,0,0,0.6)),  url(https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg) ; */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg);
+
+    background-repeat: no-repeat;
+
+    /* background-size: contain; */
+    background-size: cover;
+
+    background-position: center;
+
+    /* background-image: url(https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg) ; */
+
+    color: white;
+}
+
+#main img {
+    width: 400px;
+    height: 400px;
+}
+
+#main h2 {
+    /* x , y, blur , color */
+    text-shadow: -4px -4px 4px #000;
+    color: green;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+#main p {
+    text-align: justify;
+    font-size: 20px;
+    /* font-style: oblique; */
+    /* line-height: 10; */
+}
+
+#main p #name {
+    font-style: italic;
+}
