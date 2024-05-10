@@ -1,37 +1,100 @@
-
+* {
+    margin: 0;
+    padding: 0;
+}
 
 #parent{
-    height: 400px;
-    width:400px;
+    height: 500px;
+    width:500px;
     background-color: grey;
     position: relative;
 }
 
-.box{
-    height:100px;
+
+/* #box {
+    background-color: peru;
+    width: 100px;
+    height: 100px; */
+/* margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 50px; */
+
+/* all sides */
+/* margin:12px; */
+
+/* t-b , l-r */
+/* margin:12px 34px; */
+
+/* top , l-r , bottom */
+/* margin:23px 45px 40px; */
+
+/* top , right , bottom, left */
+/* margin: 23px 45px 40px 67px; */
+
+/* border-color:red;
+    border-style: double;
+    border-width: 10px; */
+/*     
+    border-top-color:red;
+    border-top-style: double;
+    border-top-width: 10px; */
+
+
+/* border:30px solid palevioletred; */
+/* 
+    border-top:30px solid palevioletred;
+    border-right:20px double green;
+
+
+    border-bottom:30px solid palevioletred;
+    border-left:20px double green; */
+
+
+
+
+/* } */
+
+
+
+.box {
+    height: 100px;
     width: 100px;
 }
 
-.b1{
+.b1 {
     background-color: red;
 }
-.b2{
-    background-color: green;
+
+.b2 {
+    /* position: static;
+    top:100px; */
+
+    /* in case of relative the element moves in relation to its orignal positionemail */
+    /* element remains part of doc flow */
+
     /* position: relative;
-    top:100px;
-    left:100px; */
+    left:500px;
+    top:100px; */
 
-    /* relative to vp (screen) */
+
+
+    /* element moves in relation to the viewport */
+    /* element doesn't remain part of document flow */
+
+
     /* position: fixed;
-    bottom:10px;
-    right:10px; */
+    top:100px;
+    right:100px; */
+    
+    background-color: green; 
 
-    /* relative to the body */
-    position: absolute;
-top:0;
-right:0;
+    /* position: absolute;
+    top:0;
+    right:0; */
 
 }
-.b3{
+
+.b3 {
     background-color: blue;
 }
